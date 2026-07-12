@@ -7,10 +7,11 @@
 <section class="bg-gradient-to-br from-green-900 to-green-800 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 class="text-3xl sm:text-4xl font-bold mb-4">Taman Nasional Wasur Papua Selatan</h1>
-        <p class="max-w-3xl text-green-100 leading-relaxed mb-8">
-            Kawasan konservasi lahan basah terbesar di Papua, Indonesia. Ditetapkan sebagai Situs Ramsar
-            (Konvensi Lahan Basah Internasional) sejak tahun 1996 berdasarkan nilai ekologis dan
-            keanekaragaman hayati yang luar biasa.
+        <p class="max-w-3xl text-green-100 leading-relaxed text-justify mb-8">
+            Sebelumnya kawasan Taman Nasional Wasur merupakan wilayah Suaka Alam yang ditetapkan melalui Surat Keputusan Menteri Pertanian No. 252/Kpts/Um/5/1978 tanggal 2 Mei 1978 yang terdiri dua kawasan konservasi, yaitu Suaka Margasatwa Wasur dan Cagar Alam Rawa Biru.
+            Suaka Margasatwa Wasur ditujukan sebagai lokasi perlindungan satwa, sedangkan Cagar Alam Rawa Biru sebagai lokasi pelindung sumber air minum penduduk Merauke. Tidak lama kemudian kawasan seluas masing-masing 206.000 ha dan 4.000 ha tersebut diusulkan untuk ditambah sebanyak 15.000 ha, sehingga menjadi 225.000 ha.
+            Perluasan tersebut diusulkan melalui surat No. 1125/DJ/I/1981 tanggal 10 Maret 1981 oleh Gubernur Provinsi Irian Jaya. Tahun selanjutnya berdasarkan Surat Keputusan Menteri Pertanian No. 15/Kpts/Um/5/1982 tanggal 4 Januari 1982 kawasan ini ditambah seluas 98.000 ha dan menjadi 323.000 ha.
+            Selanjutnya berdasarkan Surat Keputusan Menteri Kehutanan No. 448/Menhut-VI/1990 tanggal 6 Maret 1990 kawasan ini dideklarasikan sebagai Taman Nasional Wasur seluas 308.000 ha. Kemudian pada Tanggal 25  Mei  1997 ditunjuk sebagai kawasan Taman Nasional Wasur / Wasur National Park di Kabupaten Merauke, Provinsi Irian Jaya, dengan luas 413.810 ha.
         </p>
 
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">

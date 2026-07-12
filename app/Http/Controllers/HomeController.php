@@ -12,7 +12,7 @@ class HomeController extends Controller
     {
         $stats = [
             'luas_kawasan'    => '413.810',
-            'tahun_ramsar'    => '1996',
+            'tahun_ramsar'    => '1997',
             'spesies_flora'   => max(Flora::count(), 150),
             'spesies_burung'  => max(Fauna::where('kategori', 'burung')->count() * 40, 400),
             'spesies_mamalia' => max(Fauna::where('kategori', 'mamalia')->count() * 40, 80),
