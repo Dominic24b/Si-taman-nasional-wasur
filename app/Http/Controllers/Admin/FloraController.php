@@ -77,7 +77,7 @@ class FloraController extends Controller
             'kategori' => 'required|in:anggrek,pohon,palem,mangrove,lainnya',
             'dilindungi' => 'nullable|boolean',
             'deskripsi' => 'required|string',
-            'gambar' => 'nullable|image|max:2048',
+            'gambar' => 'nullable|image|mimes:jpeg,jpg,png,gif,webp|max:4096',
         ]);
 
         $validated['dilindungi'] = $request->boolean('dilindungi');

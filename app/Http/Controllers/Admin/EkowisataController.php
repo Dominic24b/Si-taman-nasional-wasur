@@ -70,7 +70,7 @@ class EkowisataController extends Controller
         $validated = $request->validate([
             'nama' => 'required|string|max:255',
             'deskripsi' => 'required|string',
-            'gambar' => 'nullable|image|max:2048',
+            'gambar' => 'nullable|image|mimes:jpeg,jpg,png,gif,webp|max:4096',
             'fasilitas' => 'nullable|string',
             'aksesibilitas' => 'nullable|string|max:255',
             'urutan' => 'nullable|integer|min:0',

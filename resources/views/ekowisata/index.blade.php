@@ -13,10 +13,10 @@
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         @forelse ($ekowisatas as $wisata)
-            <div class="bg-white rounded-xl shadow-sm border border-green-100 overflow-hidden hover:shadow-md transition">
-                <div class="h-44 bg-gradient-to-br from-green-700 to-green-500 flex items-end p-4">
+                <div class="bg-white rounded-xl shadow-sm border border-green-100 overflow-hidden hover:shadow-md transition">
+                                <div class="relative h-44 bg-gradient-to-br from-green-700 to-green-500 flex items-end p-4 overflow-hidden">
                     @if ($wisata->gambar)
-                        <img src="{{ asset('storage/'.$wisata->gambar) }}" alt="{{ $wisata->nama }}" class="absolute inset-0 w-full h-44 object-cover">
+                        <img src="{{ asset('storage/'.$wisata->gambar) }}" alt="{{ $wisata->nama }}" class="absolute inset-0 w-full h-full object-cover">
                     @endif
                     <span class="relative text-white text-2xl font-bold drop-shadow">{{ $wisata->nama }}</span>
                 </div>
